@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+}
+
+#game-container {
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.select-row {
+    margin-bottom: 10px; /* ou tout autre espacement */
+}
+
+.reponse {
+    margin-top: 10px; /* Ajouter un espacement au-dessus du paragraphe */
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+}
+
+#game-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#selections {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.select-row {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.select-row label {
+    width: 20px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+select {
+    width: 120px;
+    font-size: 12px;
+}
+
+#map {
+    width: 430px;
+    height: 280px;
+    position: relative;
+    background-color: #ffffc0;
+}
+
+#map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.number {
+    position: absolute;
+    font-size: 12px;
+    color: red;
+}
+
+/* #buttons {
+    margin-top: 10px;
+    text-align: center;
+}
+
+button {
+    margin: 0 10px;
+    padding: 5px 10px;
+} */
+
+#buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; /* Centre les boutons horizontalement */
+}
+
+button {
+    margin: 0 5px; /* Espace entre les boutons */
+    padding: 5px 10px;
+}
+.reponse,.bonne,.mauvaise{
+    display: none;
+}
+

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu des Pays en "stan"</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="game-container">
+        <h1>Jeu des Pays en "stan"</h1>
+        <div id="game-content">
+            <div id="selections">
+                <div class="select-row">
+                    <label for="select1">1 -</label>
+                    <select name="q1" id="select1">
+                        <option value="">Choisir...</option>
+                        <option value="afghanistan" id="r1">Afghanistan</option>
+                        <option value="azerbaidjan" id="r2">Azerbaïdjan</option>
+                        <option value="pakistan" id="r3">Pakistan</option>
+                        <option value="kirghizistan" id="r4">Kirghizistan</option>
+                        <option value="turkmenistan" id="r5">Turkménistan</option>
+                        <option value="tadjikistan" id="r6">Tadjikistan</option>
+                        <option value="ouzbekistan" id="r7">Ouzbékistan</option>
+                    </select>
+                    
+                </div>
+                <p class="mauvaise" id="mauvaise1">Mauvaise Reponse</p>
+                <p class="reponse" id="reponse1">La reponse correcte est :Azerbaidjan</p>
+                <p class="bonne" id="bonne1">Bonne Reponse</p>
+                
+                <div class="select-row">
+                    <label for="select2">2 -</label>
+                    <select  name="q2" id="select2">
+                        <option value="">Choisir...</option>
+                        <option value="afghanistan" id="r8">Afghanistan</option>
+                        <option value="azerbaidjan" id="r9">Azerbaïdjan</option>
+                        <option value="pakistan" id="r10">Pakistan</option>
+                        <option value="kirghizistan" id="r11">Kirghizistan</option>
+                        <option value="turkmenistan" id="r12">Turkménistan</option>
+                        <option value="tadjikistan" id="r13">Tadjikistan</option>
+                        <option value="ouzbekistan" id="r14">Ouzbékistan</option>
+                    </select>
+                    
+                   
+                </div>
+                <p class="mauvaise" id="mauvaise2">Mauvaise Reponse</p>
+                <p class="reponse" id="reponse2">La reponse correcte est :Turkménistan</p>
+                <p class="bonne" id="bonne2">Bonne Reponse</p>
+               
+                <div class="select-row">
+                    <label for="select3">3 -</label>
+                    <select name="q3" id="select3">
+                        <option value="">Choisir...</option>
+                        <option value="afghanistan" id="r15">Afghanistan</option>
+                        <option value="azerbaidjan" id="r16">Azerbaïdjan</option>
+                        <option value="pakistan" id="r17">Pakistan</option>
+                        <option value="kirghizistan" id="r18">Kirghizistan</option>
+                        <option value="turkmenistan" id="r19">Turkménistan</option>
+                        <option value="tadjikistan" id="r20">Tadjikistan</option>
+                        <option value="ouzbekistan" id="r21">Ouzbékistan</option>
+                    </select>
+                </div>
+                <p class="mauvaise" id="mauvaise3">Mauvaise Reponse</p>
+                <p class="reponse" id="reponse3">La reponse correcte est :Ouzbékistan</p>
+                <p class="bonne" id="bonne3">Bonne Reponse</p>
+                
+                <div class="select-row">
+                    <label for="select4">4 -</label>
+                    <select name="q4" id="select4">
+                        <option value="">Choisir...</option>
+                        <option value="afghanistan" id="r22">Afghanistan</option>
+                        <option value="azerbaidjan" id="r23">Azerbaïdjan</option>
+                        <option value="pakistan" id="r24">Pakistan</option>
+                        <option value="kirghizistan" id="r25">Kirghizistan</option>
+                        <option value="turkmenistan" id="r26">Turkménistan</option>
+                        <option value="tadjikistan" id="r27">Tadjikistan</option>
+                        <option value="ouzbekistan" id="r28">Ouzbékistan</option>
+                    </select>
+                </div>
+                <p class="mauvaise" id="mauvaise4">Mauvaise Reponse</p>
+                <p class="reponse" id="reponse4">La reponse correcte est :Afghanistan</p>
+                <p class="bonne" id="bonne4">Bonne Reponse</p>
+                
+                <div class="select-row">
+                    <label for="select5">5 -</label>
+                    <select name="q5" id="select5">
+                        <option value="">Choisir...</option>
+                        <option value="afghanistan" id="r29">Afghanistan</option>
+                        <option value="azerbaidjan" id="r30">Azerbaïdjan</option>
+                        <option value="pakistan" id="r31">Pakistan</option>
+                        <option value="kirghizistan" id="r32">Kirghizistan</option>
+                        <option value="turkmenistan" id="r33">Turkménistan</option>
+                        <option value="tadjikistan" id="r34">Tadjikistan</option>
+                        <option value="ouzbekistan" id="r35">Ouzbékistan</option>
+                    </select>
+                    
+                </div>
+                <p class="mauvaise" id="mauvaise5">Mauvaise Reponse</p>
+                <p class="reponse" id="reponse5">La reponse correcte est :Pakistan</p>
+                <p class="bonne" id="bonne5">Bonne Reponse</p>
+                
+                <div class="select-row">
+                    <label for="select6">6 -</label>
+                    <select name="q6" id="select6">
+                        <option value="">Choisir...</option>
+                        <option value="afghanistan" id="r36">Afghanistan</option>
+                        <option value="azerbaidjan" id="r37">Azerbaïdjan</option>
+                        <option value="pakistan" id="r38">Pakistan</option>
+                        <option value="kirghizistan" id="r39">Kirghizistan</option>
+                        <option value="turkmenistan" id="r40">Turkménistan</option>
+                        <option value="tadjikistan"  id="r41">Tadjikistan</option>
+                        <option value="ouzbekistan"  id="r42">Ouzbékistan</option>
+                    </select>
+                </div>
+                <p class="mauvaise" id="mauvaise6">Mauvaise Reponse</p>
+                <p class="reponse" id="reponse6">La reponse correcte est :Tadjikistan</p>
+                <p class="bonne" id="bonne6">Bonne Reponse</p>
+                
+
+                <div class="select-row">
+                    <label for="select7">7 -</label>
+                    <select name="q7" id="select7">
+                        <option value="">Choisir...</option>
+                        <option value="afghanistan"  id="r43">Afghanistan</option>
+                        <option value="azerbaidjan"  id="r44">Azerbaïdjan</option>
+                        <option value="pakistan"  id="r45">Pakistan</option>
+                        <option value="kirghizistan"  id="r46">Kirghizistan</option>
+                        <option value="turkmenistan"  id="r47">Turkménistan</option>
+                        <option value="tadjikistan"  id="r48">Tadjikistan</option>
+                        <option value="ouzbekistan"  id="r49">Ouzbékistan</option>
+                    </select>
+                
+                </div>
+                <p class="mauvaise" id="mauvaise7">Mauvaise Reponse</p>
+                <p class="reponse" id="reponse7">La reponse correcte est :Kirghizistan</p>
+                <p class="bonne" id="bonne7">Bonne Reponse</p>
+               
+
+                <div id="buttons">
+                    <button id="reset">Reset</button>
+                    <button type="submit" id="validate">Valider</button>
+                </div>
+            </div>
+            <div id="map">
+                <img src="carte.png" alt="Carte des pays en 'stan'">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
